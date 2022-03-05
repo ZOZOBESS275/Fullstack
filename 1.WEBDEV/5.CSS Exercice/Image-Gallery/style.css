@@ -1,0 +1,18 @@
+img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    padding: 5px;
+}
+.flex{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
